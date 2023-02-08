@@ -14,4 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Level1.unity
     guid: 4e29353fe43f66e43900ed99a2a569c9
+  - enabled: 1
+    path: Assets/Scenes/TrainCart1.unity
+    guid: b8d9e687bf70ce74783164fd9dc15108
   m_configObjects: {}

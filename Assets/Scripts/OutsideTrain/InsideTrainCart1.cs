@@ -7,9 +7,9 @@ public class InsideTrainCart1 : MonoBehaviour
 {
     private void OnTriggerStay2D(Collider2D collision)
     {
-        if (Input.GetKeyDown(KeyCode.F))
-        {
+       
+        if(collision.tag == "Player")
             SceneManager.LoadScene("TrainCart1");
-        }
+        
     }
 }

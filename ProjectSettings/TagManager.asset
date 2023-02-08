@@ -12,6 +12,7 @@ TagManager:
   - Cash
   - Snake
   - Saddle
+  - ExitDoor
   layers:
   - Default
   - TransparentFX
@@ -20,7 +21,7 @@ TagManager:
   - Water
   - UI
   - 
-  - 
+  - Ground
   - Boxes
   - 
   - 

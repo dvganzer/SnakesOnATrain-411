@@ -19,7 +19,7 @@ public class EndGame : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if(collision.tag == "Saddle")
+        if(collision.gameObject.tag == "Saddle")
         {
             SceneManager.LoadScene("Title");
         }
